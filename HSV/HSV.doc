@@ -1,0 +1,113 @@
+
+
+
+			HSV rev. 0.99
+
+    	      (C) Copyright Frank Ederveen, Dec. 1992.
+    	      
+         Postwarez (i.e. send me a card if you like this)
+
+
+INTRODUCTION
+
+	Hi.
+	Have you ever tried to mix colors with RGB-Sliders? I bet you have,
+	and did you like it? I didn't.. so I wrote this small utility to
+	help me out. In it's current state it's able to rewrite your palette
+	-prefs, so you don't have to use Commodores pallete program anymore :*]
+
+	It's based on the HSV color model, as described in 'Computer Graphics',
+	Principles and Practice, Foley, van Dam, Feiner and Hughes, pages 590-592.
+
+	It goes something like this: 
+	(if you don't understand what is't all about either, take a look at
+	the picture 'HSV.iff'.)
+
+13.3.4 The HSV Color Model
+
+The RGB,CMY, and YIQ models are hardware-oriented. By contrast, Smith's HSV
+(hue, saturation, value) model (also called the HSB model, with B
+for brightness) is user-oriented, being based on the intuitive appeal of
+the artist's tint, shade and tone. The coordinate system is cylindrical,
+and the subset of the space within wich the model is defined is a hexcone,
+or six-sided pyramid, as in Fig. 13.30. The top of the hexcone corresponds
+to V=1, which contains the relatively bright colors. The colors of the V=1
+plane are not all of the same perceived brightness, however.
+
+ Hue, or H, is measured by the angle around the vertical axis, with red at
+0°, green at 120°, and so on. Complementary colors in the
+HSV hexcone are 180° opposite one another. The value of S is a ratio
+ranging from 0 on the centre line (V axis) to 1 on the triangular sides of
+the hexcone. Saturation is measured relative to the color gamut represented
+by the model, which is, of course, a subset of the entire CIE chromaticity
+diagram. Therefor, saturation of 100 percent in the model is less than 100
+percent excitation purity.
+
+ The hexcone is one unit high in V, with apex at the origin. The point at
+the apex is black and has a V coordinate of 0. at this point, the values of
+H and S are irrelevant. The point S=0, V=1 is white. Intermediate values of
+V for S=0 (on the center line) are the grays. When S=0,the value of H is
+irrelevant (called by convention UNDEFINED). When S is not zero, H is
+relevant . For example, pure red is at H=0,S=1,V=1. Indeed, any color with
+V=1,S=1 is akin to an artist's pure pigment used as the starting point in
+mixing colors. Adding white pigment corresponds to decreasing S (without
+changing V). shades are created by keeping S=1 and decreasing V. Tones are
+created by decreasing both S and V. Of course, changing H corresponds to
+selecting the pure pigment with which to start. Thus, H,Sand V corrrespond
+to concepts from the artist's color system, and are not exactly the same as
+the similar terms introduced in Section 13.2.
+
+ The top of the HSV hexcone corresponds to the projection seen by looking
+along the principal diagonal of the RGB color cube from white toward black.
+The RGB cube has subcubes. Each subcube, when viewed along its main diagonal,
+is like the hexcone, except smaller. Each plane constant V in HSV space
+corresponds to such a view of a subcube in RGB space. The main diagonal of
+RGB space becomes the V axis of HSV space. Thus, we can see intuitively the
+correspondence between RGB and HSV.
+to the other.
+
+USAGE
+	Sorry but this one's WB 2.0 only.
+	
+	Usage shouldn't be any problem, Just start the 'HSV' program and 
+	play with the sliders for a while, things should become much clearer
+	then. H is Hue and is displayed in degrees (0..359), S is Saturation,
+	displayed in percent (0..100) and V stands for Value which is
+	displayed in percent (0..100) also. The HSV and the RGB sliders
+	slide both, so if you're adjusting the HSV model, you can
+	immediately see it's RGB equivalent. If you select the 'save' button,
+	the current palette is saved as 'ENVARC:palette.prefs'.
+	If you are one of those lucky few using an Amiga 1200 or 4000 and 
+	have your WB screen opened with more than 4 bit-planes, the 'save'
+	button is disabled 'cause it currently can't write Hi-Color pref-files.
+	You can still adjust your colors, then select the 'use' button and save
+	the palette using Commodores palette program.
+
+AUTHOR
+
+	Frank Ederveen
+	Mathaak 5
+	6581 VK Malden
+	The Netherlands, EUROPE
+	Fax. +31-80-556737 (mention my name somewhere, it's not mine)
+
+
+DISTRIBUTION
+
+	Anyone may distribute and/or use this package for privite use.
+	If you might want to include it in a commercial package, please let
+	me know so we can sort things out.
+	If you use it more often than once, please send me a post-card from 
+	wherever you live (I just like getting mail, that's all).
+	
+BUGS AND FUTURE DEVELOPMENTS
+
+	If you find there's anything wrong with this program (and I'm quite
+	sure GNUmerous things are) please send me a letter or Fax.
+
+	It's working fine on the machine with which it has been made, a good
+	old A2000C, A2630, Kickstart 37.175, WB 38.30.
+	
+	I doubt whether anyone will use this program for very long since
+	Commodore has included something like this in their WB 3.0 Palette
+	Prefs Program which everybody will be using shortly.

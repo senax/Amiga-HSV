@@ -1,0 +1,38 @@
+From cygint!cygnus.com!sci.kun.nl!wwanders Wed Dec 16 06:10:21 1992
+Return-Path: <cygint!cygnus.com!sci.kun.nl!wwanders>
+Received: from cygint.UUCP by fishpond.cygnus.com (4.1/SMI-4.1)
+	id AA05345; Wed, 16 Dec 92 06:10:18 MST
+Received: from wn0.sci.kun.nl by cygnus.com (4.1/SMI-4.1)
+	id AA27492; Wed, 16 Dec 92 05:03:03 PST
+Received: from oker.sci.kun.nl by wn0.sci.kun.nl with SMTP id AA06222
+	(5.65c8/ for fnf@cygnus.com); Wed, 16 Dec 1992 14:02:57 +0100
+Date: Wed, 16 Dec 1992 14:02:57 +0100
+From: William Wanders <cygint!cygnus.com!sci.kun.nl!wwanders>
+Message-Id: <199212161302.AA06222@wn0.sci.kun.nl>
+To: cygint!fnf
+Subject: A tool for inclusion into youre library.
+Status: OR
+
+
+Hi Fred,
+
+A friend of mine asked me to send you the following Utility
+he wrote. Its the uuencode file at the end of this mail.
+The .lha archive contains all files Binaries & Source.
+
+The program was tested on :
+
+	Amiga 2000B + 2630 and Kick 2.04
+	Amiga 2000A        and Kick 3 (39.106).
+
+The program is a nice help for people who prefer HSV above RGB.
+
+I hope you will include it into youre library.
+
+William Wanders.
+
+E-Mail: wwanders@sci.kun.nl
+
+
+PS: I hope this mail will get to you. It bounced twice before
+    this one. PLEASE MAIL ME IF YOU GOT THIS ONE.
